@@ -1,0 +1,13 @@
+.search {
+  margin: 20px 0 20px 0;
+  width: 1200px;
+}
+
+.inputfield {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+  margin-right: 16px;
+  border-radius: 2px;
+}

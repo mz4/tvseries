@@ -1,0 +1,42 @@
+.moviescontainer {
+    width: 1200px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gridItem { 
+    flex-grow: 0;
+  }
+  
+  .movie {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .movie img {
+    width: 100%;
+  }
+  
+  .noImage {
+    width: 100%;
+    height: 140px;
+    border: 1px solid #ccc;
+    background: repeating-linear-gradient(
+      -55deg,
+      #222,
+      #222 10px,
+      #333 10px,
+      #333 20px
+    );
+  }
+  
+  .movieText {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
